@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubActivity"
+    android:background="@color/colorWhite"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/gmarket"
+        android:text="Large Text"
+        android:textColor="@color/colorNavy"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorCad"
+        android:fontFamily="@font/gmarket"
+        android:text="cloth"
+        android:textSize="25sp"
+
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="120dp">
+        <Button
+            android:id="@+id/shop1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8 Seconds 바로가기"
+            android:fontFamily="@font/gmarket"
+            android:background="@color/colorBlue"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/shop2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarket"
+            android:background="@color/colorBlue"
+            android:text="H n M 바로가기"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/shop3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarket"
+            android:background="@color/colorBlue"
+            android:text="무신사 바로가기"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+<WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+    </WebView>
+
+
+
+
+</LinearLayout>
